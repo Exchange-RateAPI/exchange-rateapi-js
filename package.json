@@ -1,0 +1,58 @@
+{
+  "name": "@exchangerateapi/sdk",
+  "version": "1.0.0",
+  "description": "Exchange Rate API — Real-time mid-market currency exchange rates for Node.js and browsers. 160+ currencies from Reuters/Refinitiv, zero dependencies, free tier.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "currencies",
+    "currency-converter",
+    "currency-exchange",
+    "currency-conversion",
+    "converter",
+    "rates",
+    "forex",
+    "api",
+    "exchange-rateapi",
+    "exchangerateapi",
+    "conversion",
+    "mid-market-rate",
+    "reuters",
+    "money",
+    "finance"
+  ],
+  "author": "Exchange Rate API <admin@exchange-rateapi.com>",
+  "license": "MIT",
+  "homepage": "https://exchange-rateapi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Exchange-RateAPI/exchange-rateapi-js"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^4.1.4",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.4"
+  }
+}
