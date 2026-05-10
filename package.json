@@ -17,9 +17,6 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -50,9 +47,7 @@
     "url": "https://github.com/Exchange-RateAPI/exchange-rateapi-js"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^4.1.4",
     "tsup": "^8.0.0",
-    "typescript": "^5.0.0",
-    "vitest": "^4.1.4"
+    "typescript": "^5.0.0"
   }
 }
