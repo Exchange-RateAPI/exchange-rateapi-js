@@ -1,6 +1,23 @@
 # @exchangerateapi/sdk
 
+[![npm version](https://img.shields.io/npm/v/@exchangerateapi/sdk.svg)](https://www.npmjs.com/package/@exchangerateapi/sdk)
+[![license](https://img.shields.io/npm/l/@exchangerateapi/sdk.svg)](https://github.com/Exchange-RateAPI/exchange-rateapi-js/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-first--class-blue.svg)](https://www.npmjs.com/package/@exchangerateapi/sdk)
+[![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/@exchangerateapi/sdk)
+[![npm downloads](https://img.shields.io/npm/dm/@exchangerateapi/sdk.svg)](https://www.npmjs.com/package/@exchangerateapi/sdk)
+
+**The fastest way to access real-time mid-market exchange rates in JavaScript/TypeScript**
+
 Official JavaScript/TypeScript SDK for [Exchange Rate API](https://exchange-rateapi.com). Access real-time and historical mid-market exchange rates for 160+ currencies. Zero dependencies.
+
+## Why Choose This SDK?
+
+- **Zero Dependencies** -- Uses only the built-in `fetch` API. Nothing to audit, nothing to break.
+- **TypeScript-First** -- Full type definitions and IDE autocomplete out of the box.
+- **ESM + CommonJS** -- Works everywhere: Node.js, Bun, Deno, and bundlers. Ships both ESM and CJS builds.
+- **Real-Time Data** -- Rates updated every 60 seconds from Reuters (Refinitiv) and interbank feeds.
+- **Mid-Market Rates** -- The true interbank rate -- no hidden spread or markup.
+- **160+ Currencies** -- Major, minor, and exotic currency pairs.
 
 ## Installation
 
@@ -185,6 +202,14 @@ const { ExchangeRateAPI } = require('@exchangerateapi/sdk');
 
 const client = new ExchangeRateAPI({ apiKey: 'era_live_...' });
 ```
+
+## Links
+
+- [API Documentation](https://exchange-rateapi.com/developers)
+- [Register (Free)](https://exchange-rateapi.com/register)
+- [Dashboard](https://exchange-rateapi.com/profile)
+- [Status](https://exchange-rateapi.com/status)
+- [GitHub](https://github.com/Exchange-RateAPI/exchange-rateapi-js)
 
 ## License
 
