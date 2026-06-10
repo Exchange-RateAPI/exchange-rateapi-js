@@ -1,5 +1,7 @@
 # @exchangerateapi/sdk
 
+[![Powered by Exchange-RateAPI](https://img.shields.io/badge/Powered%20by-Exchange--RateAPI-blueviolet.svg)](https://exchange-rateapi.com)
+
 [![npm version](https://img.shields.io/npm/v/@exchangerateapi/sdk.svg)](https://www.npmjs.com/package/@exchangerateapi/sdk)
 [![license](https://img.shields.io/npm/l/@exchangerateapi/sdk.svg)](https://github.com/Exchange-RateAPI/exchange-rateapi-js/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-first--class-blue.svg)](https://www.npmjs.com/package/@exchangerateapi/sdk)
