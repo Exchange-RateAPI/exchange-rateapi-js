@@ -1,7 +1,7 @@
 {
   "name": "@exchangerateapi/sdk",
   "version": "1.0.0",
-  "description": "Exchange Rate API — Real-time mid-market currency exchange rates for Node.js and browsers. 160+ currencies from Reuters/Refinitiv, zero dependencies, free tier.",
+  "description": "Exchange Rate API — Real-time mid-market currency exchange rates for Node.js and browsers. 160+ currencies from institutional interbank market data, zero dependencies, free tier.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",

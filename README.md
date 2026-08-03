@@ -17,7 +17,7 @@ Official JavaScript/TypeScript SDK for [Exchange Rate API](https://exchange-rate
 - **Zero Dependencies** -- Uses only the built-in `fetch` API. Nothing to audit, nothing to break.
 - **TypeScript-First** -- Full type definitions and IDE autocomplete out of the box.
 - **ESM + CommonJS** -- Works everywhere: Node.js, Bun, Deno, and bundlers. Ships both ESM and CJS builds.
-- **Real-Time Data** -- Rates updated every 60 seconds from Reuters (Refinitiv) and interbank feeds.
+- **Real-Time Data** -- Rates updated every 60 seconds from institutional interbank market data.
 - **Mid-Market Rates** -- The true interbank rate -- no hidden spread or markup.
 - **160+ Currencies** -- Major, minor, and exotic currency pairs.
 
